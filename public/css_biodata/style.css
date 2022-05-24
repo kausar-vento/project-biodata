@@ -1,0 +1,118 @@
+body{
+    background-color: #2C6ED5;
+}
+#loading{
+    width: 50px;
+    height: 50px;
+    border: solid 5px #ccc;
+    border-top-color: #ff6a00;
+    border-radius: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    animation: putar 2s linear infinite;
+}
+@keyframes putar{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.box{
+    width: 54%;
+    height: 100%;
+    background-color: white;
+    display: blok;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border: 5px solid;
+    color: black;
+    border-radius: 15px;
+}
+.gambar{
+    width: 101%;
+    display: blok;
+    margin-left: 249px;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.jd2{
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.jdl{
+    margin-left: 90px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.form, form, tr, td, input{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.text{
+    margin-left: 100px;
+    width: 250px;
+}
+.text1{
+    margin-left: 110px;
+}
+.text2{
+    margin-left: 170px;
+}
+.rd{
+    margin-left: 117px;
+}
+.rd2{
+    margin-left: 80;
+}
+.text3{
+    margin-left: 120px;
+}
+.text22{
+    margin-left: 11px;
+}
+.text33{
+    margin-left: 32px;
+}
+.text4{
+    margin-left: 116px;
+}
+.text5{
+    margin-left: 146px;
+    width: 280px;
+}
+.text6{
+    margin-left: 159px;
+}
+.text7{
+    margin-left: 10px;
+}
+.text8{
+    margin-left: 100px;
+}
+.text9{
+    margin-left: 80px;
+}
+.text10{
+    margin-left: 167px;
+}
+.sbt{
+    margin-left: 480px;
+    margin-bottom: 10px;
+}
+.sbt2{
+    margin-left: -650px;
+    margin-bottom: 10px;
+}
+.sbt3{
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
